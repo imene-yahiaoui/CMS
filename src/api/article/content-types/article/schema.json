@@ -15,14 +15,6 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "text",
-      "maxLength": 80
-    },
-    "slug": {
-      "type": "uid",
-      "targetField": "title"
-    },
     "cover": {
       "type": "media",
       "multiple": false,
@@ -47,6 +39,9 @@
         "shared.rich-text",
         "shared.slider"
       ]
+    },
+    "content": {
+      "type": "blocks"
     }
   }
 }
